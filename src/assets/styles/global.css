@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+html {
+  scroll-padding-top: 67px;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    scroll-padding-top: 56px;
+  }
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 150%;
+}
+
+h1 {
+  line-height: 125%;
+}
+
+h2, h3, h4, h5, li {
+  line-height: 150%;
+}
